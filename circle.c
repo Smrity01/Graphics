@@ -1,5 +1,5 @@
 /*
-Plot the line using Circle mid line algorithm
+Circle mid line algorithm
 Written by : Smrity chaudhary
      Dated : 19-02-2018
 */
