@@ -1,3 +1,8 @@
+/*
+Plot the line using bresenham line algorithm
+Written by : Smrity chaudhary
+     Dated : 19-02-2018
+*/
 #include<iostream>
 #include<graphics.h>
 #include<conio.h>
@@ -6,6 +11,11 @@ using namespace std;
 
 void bresenham_line(int ,int,int,int);
 int main() {
+    /*
+    Objective       : Main function of program
+    Input parameter : None
+    Output          : None
+    */
     int x1;
     int x2;
     int y1;
@@ -25,6 +35,11 @@ int main() {
     return 0;
 }
 void bresenham_line(int x1 ,int x2,int y1,int y2){
+    /*
+    Objective       : Plot the line
+    Input parameter : End points of line
+    Output          : Draw the line
+    */
     int dx,dy,x,y,xlast,p;
     dx = abs(x1-x2);
     dy = abs(y1-y2);
