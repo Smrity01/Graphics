@@ -1,3 +1,8 @@
+/*
+Plot the line using DDA line drawing algorithm
+Written by : Smrity chaudhary
+     Dated : 19-02-2018
+*/
 #include<iostream>
 #include<graphics.h>
 #include<conio.h>
@@ -6,6 +11,12 @@ using namespace std;
 
 void dda_algo(int ,int,int,int);
 int main() {
+    /*
+    Objective       : Main function of program
+    Input parameter : None
+    Output          : None
+    */
+
     int x1;
     int x2;
     int y1;
@@ -25,6 +36,11 @@ int main() {
     return 0;
 }
 void dda_algo(int x1,int x2,int y1,int y2){
+    /*
+    Objective       : Plot the line
+    Input parameter : End points of line
+    Output          : Draw the line
+    */
     int dx;
     int dy;
     int steps;
